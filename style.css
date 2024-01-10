@@ -87,3 +87,96 @@ body{
     color: blue;
 
 }
+
+
+
+@media (min-width :350px) and (max-width:950px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+.headingdiv{
+    background-color: rgb(219, 237, 252);
+    width:700px;
+    margin: 100px 0 0 50px;
+    height: 90px;
+    border-radius: 25px;
+
+}
+
+#gameHeading{
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(240, 39, 39);
+    font-style: italic;
+    text-decoration:dotted;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-shadow: #FC0 1px 0 15px;   
+}
+.game{
+    height: 200px;
+    width: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    flex-wrap: wrap;
+    margin: 130px 0 0 100px;
+    
+}
+body{
+    background-image: url(image.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    height: 60px;
+    /* margin-top: 10px; */
+    font-size: 40px;
+    border-radius: 20px;
+    /* text-shadow: #FC0 2px 2px 3px ; */
+
+    /* background-color: rgb(196, 223, 245); */
+
+}
+
+.link,.ruleBtn{
+    text-decoration: none;
+    color: rgb(66, 16, 7);
+}
+
+.rules{
+    background-color: rgb(224, 181, 124);
+    margin-left: 400px;
+    font-size: 25px;
+    border: 1px solid white;
+    width: 800px;
+    border-radius: 15px;
+    list-style-position: inside;
+    font-style: italic;
+    visibility: hidden;
+}
+.abc{
+    list-style-type: none;
+    padding-left: 35px;
+}
+
+.exit{
+    font-size: 20px;
+    margin-left: 40px;
+    width: 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: blue;
+
+}
+
+
+}
